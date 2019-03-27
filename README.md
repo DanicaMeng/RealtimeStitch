@@ -1,10 +1,11 @@
-# RealtimeStitch实时视频拼接
+﻿# RealtimeStitch实时视频拼接
 
 ####  项目背景
 	从连接的多台摄像机获取监控画面，拼接生成全景图；
 	VC++ 项目，使用virtual studio 2013开发，依赖Opencv2和vlc库，64位。
 	这个工程是给算法同学调试用的，所以框架基本成型，但细节不太完整。
 ####  类图
+![image](https://github.com/DanicaMeng/RealtimeStitch/raw/master/ClassDiagram.jpg)
 ####  目录说明
 > frame：获取视频帧
 > > 
