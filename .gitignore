@@ -6,6 +6,10 @@
 *.lo
 *.o
 *.obj
+*.sbr
+*.tlog
+*.log
+*.idb
 
 # Precompiled Headers
 *.gch
@@ -14,7 +18,7 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
+# *.dll
 
 # Fortran module files
 *.mod
@@ -22,11 +26,57 @@
 
 # Compiled Static libraries
 *.lai
-*.la
+# *.la
 *.a
-*.lib
+# *.lib
 
 # Executables
 *.exe
 *.out
 *.app
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+ 
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.log
+*.scc
+ 
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+ 
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
