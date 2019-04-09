@@ -13,7 +13,7 @@ class FrameCapture
 {
 public:
 	FrameCapture();
-	~FrameCapture();
+	virtual~FrameCapture();
 	//获取视频帧
 	//由非阻塞调用改为阻塞调用
 	bool next(cv::Mat & frame);

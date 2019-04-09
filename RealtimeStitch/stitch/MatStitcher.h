@@ -9,6 +9,7 @@ class MatStitcher
 {
 public:
 	virtual Stitcher::Status stitch(InputArray images, OutputArray pano)=0;
+	virtual ~MatStitcher(){};
 };
 
 class TestStitcher: public MatStitcher
